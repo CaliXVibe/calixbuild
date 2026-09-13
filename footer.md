@@ -2,5 +2,5 @@
 
 - [Privacy](/privacy)
 - [Terms](/terms)
-- [Do Not Sell or Share](/privacy#opt-out)
-- hello@calixbuild.com
+- [Do Not Sell or Share](/do-not-sell)
+- calix.build@gmail.com
