@@ -50,7 +50,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for electrical. You get a trade-specific operator prompt and a sample after-hours no-power / breaker lead you can run the same night. Instant digital download.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-electrical
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-electrical",
   },
   {
     slug: "night-desk-roofing",
@@ -72,7 +72,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for cleaning companies. You get a trade-specific operator prompt and a sample same-week / move-out clean lead you can run the same night. Instant digital download.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-cleaning
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-cleaning",
   },
   {
     slug: "night-desk-landscaping",
