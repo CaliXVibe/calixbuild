@@ -83,7 +83,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for landscaping. You get a trade-specific operator prompt and a sample weekend-mow / irrigation lead you can run the same night. Instant digital download.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-landscaping
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-landscaping",
   },
   {
     slug: "night-desk-restoration",
@@ -94,7 +94,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for restoration and water mitigation. You get a trade-specific operator prompt and a sample water-in lead you can run the same night. Instant digital download.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-restoration
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-restoration",
   },
   {
     slug: "night-desk-mobile-auto",
