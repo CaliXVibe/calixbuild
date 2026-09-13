@@ -38,9 +38,10 @@ Each pack lives in [`src/data/products.ts`](src/data/products.ts).
 **Live now**
 
 - `night-desk-hvac` → `https://calixion.gumroad.com/l/night-desk-hvac`
+- `night-desk-plumbing` → `https://calixion.gumroad.com/l/night-desk-plumbing`
 - `night-desk-roofing` → `https://calixion.gumroad.com/l/night-desk-roofing`
 
-The other seven stay `null` until Money Maker pastes a live listing.
+The other six stay `null` until Money Maker pastes a live listing.
 
 1. Open `src/data/products.ts`.
 2. Find the pack.

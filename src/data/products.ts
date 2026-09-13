@@ -39,7 +39,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for plumbing. You get a trade-specific operator prompt and a sample burst-pipe / no-water lead you can run the same night. Instant digital download — checkout on Gumroad when the listing is live.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-plumbing
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-plumbing",
   },
   {
     slug: "night-desk-electrical",
