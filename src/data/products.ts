@@ -28,7 +28,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for HVAC. You get a trade-specific operator prompt and a sample after-hours no-cool lead you can run the same night. Instant digital download — no field work, no subscription backend.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-hvac
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-hvac",
   },
   {
     slug: "night-desk-plumbing",
