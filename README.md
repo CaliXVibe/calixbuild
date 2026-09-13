@@ -33,19 +33,17 @@ npm start
 
 ## Paste Gumroad URLs
 
-Listings are not live yet. Each pack lives in [`src/data/products.ts`](src/data/products.ts).
+Each pack lives in [`src/data/products.ts`](src/data/products.ts).
+
+**Live now**
+
+- `night-desk-roofing` → `https://calixion.gumroad.com/l/night-desk-roofing`
+
+The other eight stay `null` until Money Maker pastes a live listing.
 
 1. Open `src/data/products.ts`.
-2. Find the pack (`night-desk-hvac`, `night-desk-plumbing`, …).
-3. Replace `gumroadUrl: null` with the live checkout URL.
-
-Example:
-
-```ts
-gumroadUrl: "https://calixion.gumroad.com/l/night-desk-hvac",
-```
-
-Guessed slug pattern (placeholder only): `https://calixion.gumroad.com/l/<slug>`.
+2. Find the pack.
+3. Replace `gumroadUrl: null` with the live checkout URL. Do not invent URLs.
 
 - `null` → shop UI shows a disabled **Coming soon** button.
 - a string → **Buy on Gumroad** opens that URL in a new tab.

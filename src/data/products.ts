@@ -61,7 +61,7 @@ export const products: Product[] = [
     description:
       "A Night Desk operator pack for roofing. You get a trade-specific operator prompt and a sample storm-leak lead you can run the same night. Instant digital download.",
     price: 39,
-    gumroadUrl: null, // https://calixion.gumroad.com/l/night-desk-roofing
+    gumroadUrl: "https://calixion.gumroad.com/l/night-desk-roofing",
   },
   {
     slug: "night-desk-cleaning",
