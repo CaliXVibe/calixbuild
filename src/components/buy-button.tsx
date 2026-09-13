@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { formatPrice, type Product } from "@/data/products";
+import { cn } from "@/lib/utils";
 
 export function BuyButton({
   product,
@@ -12,7 +13,16 @@ export function BuyButton({
 }) {
   if (!product.gumroadUrl) {
     return (
-      <Button size={size} className={className} disabled aria-disabled="true">
+      <Button
+        size={size}
+        variant="outline"
+        className={cn(
+          "disabled:opacity-100 disabled:text-paper-muted",
+          className,
+        )}
+        disabled
+        aria-disabled="true"
+      >
         Coming soon · {formatPrice(product.price)}
       </Button>
     );

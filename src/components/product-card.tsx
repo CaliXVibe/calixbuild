@@ -40,7 +40,7 @@ export function ProductCard({ product }: { product: Product }) {
         Digital operator pack · instant download
       </CardContent>
       <CardFooter className="mt-auto gap-2 border-cyan/10 bg-navy-deep/40">
-        <BuyButton product={product} size="sm" className="flex-1" />
+        <BuyButton product={product} size="default" className="flex-1" />
       </CardFooter>
     </Card>
   );
